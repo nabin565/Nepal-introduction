@@ -1,0 +1,53 @@
+.topbox {
+    background-color: blue;
+}
+.capital {
+background-color: #3399ff;
+}
+.language {
+background-color: gray;
+}
+.population {
+background-color: #ff66cc;
+}
+.currency {
+background-color: green;
+}
+.famous-place {
+    background-color:red;
+}
+.famousfood {
+    background-color: blueviolet;
+}
+.famousperson {
+  background-color: brown;
+}
+.different {
+    background-color: yellow;
+}
+img {
+    max-width: 100%;
+    width: 100%;
+}
+.box-wrapper {
+    display: flex; /* to make the boxes arrange on sideby side*/
+    justify-content: space-around; /* to include space arnd boxes*/
+}
+.box {
+    width: 33%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.box-left {
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.box-right {
+    width: 35%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
