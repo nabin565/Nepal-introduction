@@ -13,6 +13,15 @@ background-color: #ff66cc;
 .currency {
 background-color: green;
 }
+.capital,
+.language,
+.population,
+.currency {
+    margin-top: 10px;
+    padding: 20px;
+    height: 40%;
+    min-height: 200px;
+}
 .famous-place {
     background-color:red;
 }
@@ -29,7 +38,7 @@ img {
     max-width: 100%;
     width: 100%;
 }
-
+mt {}
 .box-wrapper {
     display: flex; /* to make the boxes arrange on sideby side*/
     justify-content: space-around; /* to include space arnd boxes*/
@@ -51,4 +60,9 @@ img {
     padding: 10px;
     text-align: center;
     box-sizing: border-box;
+}
+
+.font-x1 {
+    line-height: 3em;
+    font-size: 2em;
 }
