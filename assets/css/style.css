@@ -29,6 +29,7 @@ img {
     max-width: 100%;
     width: 100%;
 }
+
 .box-wrapper {
     display: flex; /* to make the boxes arrange on sideby side*/
     justify-content: space-around; /* to include space arnd boxes*/
